@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.example.constrainlayouttest.myConsLayout
+        android:id="@+id/layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <View
+            android:id="@+id/center"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv12"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="12"
+            app:layout_constraintCircle="@id/center"
+            app:layout_constraintCircleAngle="360"
+            tools:layout_constraintCircleRadius="100dp" />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="1"
+            app:layout_constraintCircle="@id/center"
+            app:layout_constraintCircleAngle="30"
+            tools:layout_constraintCircleRadius="100dp" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="2"
+            app:layout_constraintCircle="@id/center"
+            app:layout_constraintCircleAngle="60"
+            tools:layout_constraintCircleRadius="100dp" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="3"
+            app:layout_constraintCircle="@id/center"
+            app:layout_constraintCircleAngle="90"
+            tools:layout_constraintCircleRadius="100dp" />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="4"
+            app:layout_constraintCircle="@id/center"
+            app:layout_constraintCircleAngle="120"
+            tools:layout_constraintCircleRadius="100dp" />
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="5"
+            app:layout_constraintCircle="@id/center"
+            app:layout_constraintCircleAngle="150"
+            tools:layout_constraintCircleRadius="100dp" />
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="6"
+            app:layout_constraintCircle="@id/center"
+            app:layout_constraintCircleAngle="180"
+            tools:layout_constraintCircleRadius="100dp" />
+
+        <TextView
+            android:id="@+id/tv7"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="7"
+            app:layout_constraintCircle="@id/center"
+            app:layout_constraintCircleAngle="210"
+            tools:layout_constraintCircleRadius="100dp" />
+
+        <TextView
+            android:id="@+id/tv8"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="8"
+            app:layout_constraintCircle="@id/center"
+            app:layout_constraintCircleAngle="240"
+            tools:layout_constraintCircleRadius="100dp" />
+
+        <TextView
+            android:id="@+id/tv9"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="9"
+            app:layout_constraintCircle="@id/center"
+            app:layout_constraintCircleAngle="270"
+            tools:layout_constraintCircleRadius="100dp" />
+
+        <TextView
+            android:id="@+id/tv10"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="10"
+            app:layout_constraintCircle="@id/center"
+            app:layout_constraintCircleAngle="300"
+            tools:layout_constraintCircleRadius="100dp" />
+
+        <TextView
+            android:id="@+id/tv11"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="11"
+            app:layout_constraintCircle="@id/center"
+            app:layout_constraintCircleAngle="330"
+            tools:layout_constraintCircleRadius="100dp" />
+    </com.example.constrainlayouttest.myConsLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
